@@ -1143,8 +1143,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 	end
 
 	Notifications.Template.Visible = false
-	Notifications.Visible = false
-	Rayfield.Enabled = false
+	Notifications.Visible = true
+	Rayfield.Enabled = true
 	wait(0.5)
 	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
 	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.55}):Play()

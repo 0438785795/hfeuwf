@@ -2439,7 +2439,7 @@ UserInputService.InputBegan:Connect(function(input, processed)
 	if (input.KeyCode == Enum.KeyCode.RightShift and not processed) then
 		if Debounce then return end
 		if Hidden then
-			Hidden = false
+			Hidden = true
 			Unhide()
 		else
 			Hidden = true
